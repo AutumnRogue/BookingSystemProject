@@ -1,0 +1,51 @@
+.Modal {
+    position: absolute;
+    height: 40%;
+    width: 20%;
+    top: 10%;
+    left: 35%;
+    right: 15%;
+    bottom: 15%;
+    background-color:whitesmoke;
+    /* padding: 4%; */
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(194, 194, 194, 0.9)
+  }
+
+  #close {
+      position: absolute;
+      top: 0%;
+      left: 90%;
+  }
+  #input{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      font-family:Helvetica;
+      color: darkslategray;
+      font-weight: bold;
+  }
+  /* #formControl{
+      display: flex;
+      flex-direction: row;
+      padding: 1px;
+  } */
+  .inputControl{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .inputControlLarge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200%;
+}
